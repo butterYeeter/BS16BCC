@@ -35,14 +35,14 @@ Goals:
   
 - Implement the logical circuitry on breadboards to mess around with.
   
-- Future upgrades:\
+- Future upgrades:
     - Implement stack, call stack and multiple program loading in RAM.
   
   
-- Current tasks:\
-    - Complete 8 bit prototype with simple instructions.\
-    - Hardware addition, multiplication, division and subtraction for floats and ints.\
-    - Review ISA and improve it.\
+- Current tasks:
+    - Complete 8 bit prototype with simple instructions.
+    - Hardware addition, multiplication, division and subtraction for floats and ints.
+    - Review ISA and improve it.
     - Screen output?
     
     
