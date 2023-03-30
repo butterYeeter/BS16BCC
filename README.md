@@ -5,6 +5,8 @@ This is a repo containing the logisim evo .circ files for my crappy cpu project 
 
 I have plans to make this turing complete and eventually build this on bread boards. I also plan on writing a basic assembler in C for this CPU.
 
+![image](https://user-images.githubusercontent.com/100842250/228962766-3a9b04a3-5bdf-4fe3-912f-70b76b46704f.png)
+
 Goals:
 - Make a turing complete 16 bit CPU with these instructions:
     - ADD - adds A and B registers
