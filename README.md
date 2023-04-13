@@ -7,10 +7,15 @@ I have plans to make this turing complete and eventually build this on bread boa
 
 ![image](https://user-images.githubusercontent.com/100842250/231858384-9efd1a2a-4878-442f-9996-3a6377190cdc.png)
 
+https://user-images.githubusercontent.com/100842250/231859789-a5f0ea72-1bdb-4e26-b148-3fd95e67be8d.mp4
+
 Goals:
 - **ISA TO BE REDESIGNED**
 - Make a turing complete 16 bit CPU with these instructions:
-    - ADD - adds A and B registers
+    - ADD - adds 
+
+
+A and B registers
     - MUL - multiplies value of A with value of B
     - DIV - divides A by B
     - SUB - subtracts B from A
