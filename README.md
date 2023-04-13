@@ -5,7 +5,7 @@ This is a repo containing the logisim evo .circ files for my crappy cpu project 
 
 I have plans to make this turing complete and eventually build this on bread boards. I also plan on writing a basic assembler in C for this CPU.
 
-![image](https://user-images.githubusercontent.com/100842250/231857240-752d85c0-89f7-4ef7-97ff-cd648c1a1cf4.png)
+![image](https://user-images.githubusercontent.com/100842250/231858384-9efd1a2a-4878-442f-9996-3a6377190cdc.png)
 
 Goals:
 - **ISA TO BE REDESIGNED**
@@ -47,7 +47,7 @@ Goals:
   
   
 - Current tasks:
-    - Complete 8 bit prototype with simple instructions. #COMPLETE
+    - Complete 8 bit prototype with simple instructions. #DISCARDED
     - Hardware addition, multiplication, division and subtraction for unsigned ints. #COMPLETE
     - Configure instuction decoder. #TODO
     - Review ISA and improve it. #TODO
