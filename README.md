@@ -12,10 +12,7 @@ https://user-images.githubusercontent.com/100842250/231859789-a5f0ea72-1bdb-4e26
 Goals:
 - **ISA TO BE REDESIGNED**
 - Make a turing complete 16 bit CPU with these instructions:
-    - ADD - adds 
-
-
-A and B registers
+    - ADD - adds A and B registers
     - MUL - multiplies value of A with value of B
     - DIV - divides A by B
     - SUB - subtracts B from A
