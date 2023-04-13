@@ -5,9 +5,10 @@ This is a repo containing the logisim evo .circ files for my crappy cpu project 
 
 I have plans to make this turing complete and eventually build this on bread boards. I also plan on writing a basic assembler in C for this CPU.
 
-![image](https://user-images.githubusercontent.com/100842250/228962766-3a9b04a3-5bdf-4fe3-912f-70b76b46704f.png)
+![image](https://user-images.githubusercontent.com/100842250/231857240-752d85c0-89f7-4ef7-97ff-cd648c1a1cf4.png)
 
 Goals:
+- **ISA TO BE REDESIGNED**
 - Make a turing complete 16 bit CPU with these instructions:
     - ADD - adds A and B registers
     - MUL - multiplies value of A with value of B
@@ -38,13 +39,19 @@ Goals:
 - Implement the logical circuitry on breadboards to mess around with.
   
 - Future upgrades:
+    - Add RAM storage
+    - 32 Bit
+    - 2's Complement representation of numbers
+    - Floating Point Unit
     - Implement stack, call stack and multiple program loading in RAM.
   
   
 - Current tasks:
-    - Complete 8 bit prototype with simple instructions.
-    - Hardware addition, multiplication, division and subtraction for floats and ints.
-    - Review ISA and improve it.
-    - Screen output?
+    - Complete 8 bit prototype with simple instructions. #COMPLETE
+    - Hardware addition, multiplication, division and subtraction for unsigned ints. #COMPLETE
+    - Configure instuction decoder. #TODO
+    - Review ISA and improve it. #TODO
+    - Add RAM for temp storage. #TODO
+    - Screen output? #TODO
     
     
