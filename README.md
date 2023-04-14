@@ -49,11 +49,12 @@ Goals:
   
   
 - Current tasks:
-    - Complete 8 bit prototype with simple instructions. #DISCARDED
     - Hardware addition, multiplication, division and subtraction for unsigned ints. #COMPLETE
-    - Configure instuction decoder. #TODO
-    - Review ISA and improve it. #TODO
-    - Add RAM for temp storage. #TODO
+    - Add RAM for temp storage. #COMPLETE
+    - Configure instuction decoder. #INPROGRESS
+    - Review ISA and improve it. #INPROGRESS
     - Screen output? #TODO
+    - Complete 8 bit prototype with simple instructions. #DISCARDED
+    
     
     
