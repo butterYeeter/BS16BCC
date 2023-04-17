@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project source="3.7.2" version="1.0">
-  This file is intended to be loaded by Logisim-evolution v3.7.2(https://github.com/logisim-evolution/).
+<project source="3.8.0" version="1.0">
+  This file is intended to be loaded by Logisim-evolution v3.8.0(https://github.com/logisim-evolution/).
 
   <lib desc="#Wiring" name="0">
     <tool name="Pin">
@@ -708,9 +708,7 @@
     <comp lib="4" loc="(1130,680)" name="ROM">
       <a name="appearance" val="classic"/>
       <a name="contents">addr/data: 8 24
-21 41 81 101 1020 1040 1080 1100
-8420 8440 8480 8500 239*0 80001 40001 20001
-10001 4000
+21 24 28 30 120 4020 249*0 4000
 </a>
       <a name="dataWidth" val="24"/>
       <a name="label" val="DECODER"/>
@@ -756,7 +754,7 @@
       <a name="addrWidth" val="16"/>
       <a name="appearance" val="classic"/>
       <a name="contents">addr/data: 16 24
-ff0000 1010 11234 20010 28*0 60000
+ff0000 a b 10000
 </a>
       <a name="dataWidth" val="24"/>
       <a name="labelvisible" val="true"/>
@@ -975,13 +973,13 @@ ff0000 1010 11234 20010 28*0 60000
     <appear>
       <rect fill="none" height="40" stroke="#000000" stroke-width="2" width="40" x="50" y="50"/>
       <visible-register height="10" path="/Register(940,940)" stroke-width="0" width="13" x="64" y="65"/>
-      <circ-anchor facing="east" height="6" width="6" x="87" y="57"/>
-      <circ-port height="10" pin="1120,500" width="10" x="85" y="55"/>
-      <circ-port height="10" pin="1130,970" width="10" x="85" y="75"/>
-      <circ-port height="8" pin="1040,540" width="8" x="66" y="46"/>
-      <circ-port height="8" pin="640,130" width="8" x="46" y="56"/>
-      <circ-port height="8" pin="640,170" width="8" x="46" y="76"/>
-      <circ-port height="8" pin="930,1050" width="8" x="66" y="86"/>
+      <circ-anchor facing="east" x="90" y="60"/>
+      <circ-port dir="in" pin="1040,540" x="70" y="50"/>
+      <circ-port dir="in" pin="640,130" x="50" y="60"/>
+      <circ-port dir="in" pin="640,170" x="50" y="80"/>
+      <circ-port dir="in" pin="930,1050" x="70" y="90"/>
+      <circ-port dir="out" pin="1120,500" x="90" y="60"/>
+      <circ-port dir="out" pin="1130,970" x="90" y="80"/>
     </appear>
     <comp lib="0" loc="(1040,540)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -1172,16 +1170,16 @@ ff0000 1010 11234 20010 28*0 60000
       <rect fill="none" height="70" stroke="#000000" stroke-width="2" width="70" x="50" y="50"/>
       <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="84" y="68">ALU IN</text>
       <text dominant-baseline="central" font-family="SansSerif" font-size="8" text-anchor="middle" x="79" y="108">SEL_IN</text>
-      <circ-anchor facing="east" height="6" width="6" x="117" y="67"/>
-      <circ-port height="10" pin="1040,160" width="10" x="115" y="65"/>
-      <circ-port height="10" pin="1040,230" width="10" x="115" y="95"/>
-      <circ-port height="8" pin="210,200" width="8" x="46" y="56"/>
-      <circ-port height="8" pin="210,260" width="8" x="46" y="66"/>
-      <circ-port height="8" pin="210,320" width="8" x="46" y="76"/>
-      <circ-port height="8" pin="210,380" width="8" x="46" y="86"/>
-      <circ-port height="8" pin="210,440" width="8" x="46" y="96"/>
-      <circ-port height="8" pin="210,500" width="8" x="46" y="106"/>
-      <circ-port height="8" pin="790,360" width="8" x="76" y="116"/>
+      <circ-anchor facing="east" x="120" y="70"/>
+      <circ-port dir="in" pin="210,200" x="50" y="60"/>
+      <circ-port dir="in" pin="210,260" x="50" y="70"/>
+      <circ-port dir="in" pin="210,320" x="50" y="80"/>
+      <circ-port dir="in" pin="210,380" x="50" y="90"/>
+      <circ-port dir="in" pin="210,440" x="50" y="100"/>
+      <circ-port dir="in" pin="210,500" x="50" y="110"/>
+      <circ-port dir="in" pin="790,360" x="80" y="120"/>
+      <circ-port dir="out" pin="1040,160" x="120" y="70"/>
+      <circ-port dir="out" pin="1040,230" x="120" y="100"/>
     </appear>
     <comp lib="0" loc="(1040,160)" name="Pin">
       <a name="appearance" val="NewPins"/>
