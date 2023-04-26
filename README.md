@@ -5,7 +5,7 @@ This is a repo containing the logisim evo .circ files for my crappy cpu project 
 
 I have plans to make this turing complete and eventually build this on bread boards. I also plan on writing a basic assembler in C for this CPU.
 
-![image](https://user-images.githubusercontent.com/100842250/231858384-9efd1a2a-4878-442f-9996-3a6377190cdc.png)
+![image](https://user-images.githubusercontent.com/100842250/234488267-be3a6823-baee-407e-86d6-5e0c340f0964.png)
 
 https://user-images.githubusercontent.com/100842250/231859789-a5f0ea72-1bdb-4e26-b148-3fd95e67be8d.mp4
 
